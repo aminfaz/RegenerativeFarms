@@ -1,6 +1,6 @@
 # **React** Master-Detail Component + Dark Mode
 
-A quick experiment and demo of a responsive `master-detail` component in react. This is a companion repo for [blog post](), which is currently a work in progress.
+A quick experiment and demo of a responsive `master-detail` component in react. This is a companion repo for the following [blog post](https://medium.com/@blewpri/react-responsive-master-detail-10b60b739879).
 
 ![React Master Detail](README.png)
 
