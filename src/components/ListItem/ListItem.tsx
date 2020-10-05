@@ -20,16 +20,8 @@ export const ListItem: React.FunctionComponent<ListItemProps> = (props) => {
                 </h1>
 
                 <h2 data-test="ListItemSubHeading">
-                    { props.item.description ?  props.item.description : listItemNoDataMessage }
+                    { props.item.shortDescription ?  props.item.shortDescription : listItemNoDataMessage }
                 </h2>
-
-                <p >
-                    { props.item.description ?  props.item.description : listItemNoDataMessage } 
-                </p>
-
-                <p>
-                    { props.item.description ?  props.item.description : listItemNoDataMessage }
-                </p>
 
             </div>
 

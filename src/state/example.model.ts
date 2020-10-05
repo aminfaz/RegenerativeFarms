@@ -1,7 +1,6 @@
 export class ExampleState {
     constructor(
-        public items: { [id:number]: Item },
-        public ids: number[] = []
+        public items: Items
     ) {}
 }
 
@@ -13,4 +12,5 @@ export interface Item {
     id: number;
     title: string;
     description: string;
+    shortDescription?: string;
 }

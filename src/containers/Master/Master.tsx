@@ -20,7 +20,7 @@ export const Master: React.FunctionComponent<MasterProps> = (props) => {
     );
     return (
         <div className="master">
-            <Header title="Master" hideBackButton={true}/>
+            <Header title="Farms" hideBackButton={true}/>
             <ul>
                 {listItems}
             </ul>

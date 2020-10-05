@@ -16,10 +16,10 @@ export const Detail: React.FunctionComponent<DetailProps> = (props) => {
             <main className="detail__main">
                 <div className="detail__content-text">
                     <h1>
-                        {props.item ? props.item.title : 'Nothing Selected'}
+                        {props.item ? props.item.shortDescription : 'Nothing Selected'}
                     </h1>
                     <h2>
-                        Detail Page
+                        {props.item ? props.item.description : ''}
                     </h2>
                 </div>
             </main>
